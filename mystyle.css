@@ -8,11 +8,11 @@ margin: auto;
 }
 
 .invisible {
-  transition: opacity 2s ease;
+  transition: opacity 10s ease;
   opacity: 0.0;
 }
 
 .visible {
-  transition: opacity 2s ease;
+  transition: opacity 10s ease;
   opacity: 1.0;
 }
