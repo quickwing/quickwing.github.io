@@ -10,9 +10,9 @@ letter-spacing: 2px;
 font-size: 1.5em;
 }
 
-@keyframes zoomout{
-  from {font-size: 3.5em;}
-  to {font-size: 3em;}
+@keyframes drop{
+  from {padding-top: 100px;}
+  to {padding-top: 400px;}
 }
 
 @keyframes up{
@@ -39,7 +39,7 @@ padding-bottom: 5px;
 text-align: center;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
-animation-name: zoomout;
+animation-name: drop;
 animation-duration: 1s;
 font-size: 3em;
 }
