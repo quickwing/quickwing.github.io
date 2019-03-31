@@ -11,7 +11,7 @@ font-size: 1.5em;
 }
 
 @keyframes zoomout{
-  from {font-size: 4em;}
+  from {font-size: 3.5em;}
   to {font-size: 3em;}
 }
 
@@ -41,8 +41,6 @@ font-family: verdana, sans-serif;
 letter-spacing: 2px;
 animation-name: zoomout;
 animation-duration: 1s;
-border-width: 0px;
-border-style: solid;
 font-size: 3em;
 }
 
