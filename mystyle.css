@@ -1,19 +1,32 @@
 p {
-background-color:green;
 padding-top: 75px;
 padding-bottom: 75px;
-padding-right: 50%;
-padding-left: 50%;
-margin: auto;
+padding-right: 5%;
+padding-left: 5%;
+margin-bottom: 30px;
+padding-bottom: 30px;
+font-family: verdana, sans-serif;
+letter-spacing: 2px;
+font-size: 1em;
+}
+
+@keyframes zoomout{
+  from {font-size: 4em;}
+  to {font-size: 3em;}
+}
+
+@keyframes up{
+  from {padding-top: 15px;}
+  to {padding-top: 5px;}
 }
 
 .invisible {
-  transition: opacity 10s ease;
+  transition: opacity 4s ease;
   opacity: 0.0;
 }
 
 .visible {
-  transition: opacity 10s ease;
+  transition: opacity 4s ease;
   opacity: 1.0;
 }
 
@@ -26,18 +39,32 @@ padding-bottom: 5px;
 text-align: center;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
+animation-name: zoomout;
+animation-duration: 1s;
 font-size: 3em;
+border-width: 0px;
+border-style: solid;
 }
 
 h2{
 margin-top: 0px;
-height: 400px;
+height: 40px;
 width: 100%;
 padding-top: 5px;
-padding-bottom: 20%;
+padding-bottom: 400px;
 text-align: center;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
 font-size: 2em;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+animation-name: up;
+animation-duration: 1s;
 }
 
+t{
+text-align: center;
+padding-left: 50%;
+padding-right: 50%;
+width: 100%;
+}
