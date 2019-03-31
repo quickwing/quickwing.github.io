@@ -18,10 +18,11 @@ margin: auto;
 }
 
 h1{
-height: 50%;
+height: 40px;
 width: 100%;
-padding-top: 40%;
-padding-bottom: 10%;
+padding-top: 400px;
+margin-bottom: 10px;
+padding-bottom: 5px;
 text-align: center;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
@@ -29,10 +30,11 @@ font-size: 3em;
 }
 
 h2{
-height: 50%;
+margin-top: 0px;
+height: 400px;
 width: 100%;
-padding-top: 5%;
-padding-bottom: 45%;
+padding-top: 5px;
+padding-bottom: 20%;
 text-align: center;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
