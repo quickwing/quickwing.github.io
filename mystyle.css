@@ -1,13 +1,13 @@
 p {
-padding-top: 75px;
-padding-bottom: 75px;
-padding-right: 5%;
-padding-left: 5%;
+padding-top: 150px;
+padding-bottom: 150px;
+padding-right: 10%;
+padding-left: 10%;
 margin-bottom: 30px;
 padding-bottom: 30px;
 font-family: verdana, sans-serif;
 letter-spacing: 2px;
-font-size: 1em;
+font-size: 1.5em;
 }
 
 @keyframes zoomout{
@@ -41,9 +41,9 @@ font-family: verdana, sans-serif;
 letter-spacing: 2px;
 animation-name: zoomout;
 animation-duration: 1s;
-font-size: 3em;
 border-width: 0px;
 border-style: solid;
+font-size: 3em;
 }
 
 h2{
