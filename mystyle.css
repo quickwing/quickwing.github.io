@@ -1,12 +1,18 @@
 p {
-padding-top: 150px;
-padding-bottom: 150px;
+padding-top: 200px;
+padding-bottom: 200px;
 padding-right: 10%;
 padding-left: 10%;
-margin-bottom: 30px;
-padding-bottom: 30px;
-font-family: verdana, sans-serif;
+width: 70%;
+margin-left: 5%;
+margin-right: 5%;
+font-family: "Times New Roman", serif;
 letter-spacing: 2px;
+font-size: 1.5em;
+background-color: rgb(250, 250, 250);
+}
+
+h3 {
 font-size: 1.5em;
 }
 
@@ -37,7 +43,7 @@ padding-top: 400px;
 margin-bottom: 10px;
 padding-bottom: 5px;
 text-align: center;
-font-family: verdana, sans-serif;
+font-family: "Times New Roman", serif;
 letter-spacing: 2px;
 animation-name: drop;
 animation-duration: 1s;
@@ -51,7 +57,7 @@ width: 100%;
 padding-top: 5px;
 padding-bottom: 400px;
 text-align: center;
-font-family: verdana, sans-serif;
+font-family: "Times New Roman", serif;
 letter-spacing: 2px;
 font-size: 2em;
 border-bottom-width: 2px;
