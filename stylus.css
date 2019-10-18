@@ -1,0 +1,30 @@
+﻿button[type=button] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 50px;
+  cursor: pointer;
+}
+input[type=number] {
+  width: 70px;
+  padding: 5px 5px;
+}
+select {
+  padding: 5px 5px;
+}
+
+h1 {
+padding: 50px;
+}
+th {
+text-align: left;
+padding-left: 50px;
+}
+h2 {
+padding-left: 50px;
+}
+p {
+padding-left: 50px;
+}
